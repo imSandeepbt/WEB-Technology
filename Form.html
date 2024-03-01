@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="" method="get" autocomplete="on">
+        <fieldset>
+            <legend></legend>
+            <br><br>
+            <label for="fullname">Fullname:</label>
+            <input type="text" id="fullname" placeholder="Enter your fullname" required autofocus>(max 20 char a-z and A-Z) <br><br>
+            <label for="lastname">Lastname:</label>
+            <input type="text" id="lastname" placeholder="Enter your Last name" required>(max 20 char a-z and A-Z) <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required><br><br>
+            <label for="gender">GENDER:</label>
+            <input type="radio" name="gender" id="gender">Male
+            <input type="radio" name="gender" id="gender">Female
+            <br><br>
+            <label for="email2">EMAIL ID:</label>
+            <input type="email2" id="email2" placeholder="Enter your Email ID" required><br><br>
+            <label for="phone">MOBILE NO:</label>
+            <input type="number" id="phone" placeholder="Enter your Phone Number" required><br><br>
+            <label for="address">ADDRESS:</label>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            <br><br>
+            <label for="city">CITY:</label>
+            <input type="text" id="city"><br><br>
+            <label for="Pincode">PINCODE:</label>
+            <input type="number" id="Pincode">(6 digit number)<br><br>
+            <label for="email">EMAIL ID:</label>
+            <input type="email" id="email" placeholder="Enter your Email ID"><br><br>
+            <label for="State">STATE:</label>
+            <input type="text" id="State"><br><br>
+            <label for="Country">COUNTRY:</label>
+            <input type="text" id="Country"><br><br>
+            <label for="hobbies">HOBBIES:</label>
+            <input type="checkbox" name="hobbies">Drawing
+            <input type="checkbox" name="hobbies">Singing
+            <input type="checkbox" name="hobbies">Dancing
+            <input type="checkbox" name="hobbies">Other<input type="text" id="hobbies"><br><br>
+            <label for="Qualification">Qualification</label>
+            <table>
+                <tr>
+                    <td>sl.no</td>
+                    <td><label for="Examination" id="Qualification">Examination</label></td>
+                    <td><label for="Board">Board</label></td>
+                    <td><label for="Percentage">Percentage</label></td>
+                    <td><label for="Year of Pass">Year of Pass</label></td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td><input type="text" id="Examination"></td>
+                    <td><input type="text" id="Board"></td>
+                    <td><input type="text" id="Percentage"></td>
+                    <td><input type="text" id="Year of Pass"></td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td><input type="text" id="Examination"></td>
+                    <td><input type="text" id="Board"></td>
+                    <td><input type="text" id="Percentage"></td>
+                    <td><input type="text" id="Year of Pass"></td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td><input type="text" id="Examination"></td>
+                    <td><input type="text" id="Board"></td>
+                    <td><input type="text" id="Percentage"></td>
+                    <td><input type="text" id="Year of Pass"></td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td><input type="text" id="Examination"></td>
+                    <td><input type="text" id="Board"></td>
+                    <td><input type="text" id="Percentage"></td>
+                    <td><input type="text" id="Year of Pass"></td>
+                </tr>
+            </table>
+            <label for="courses">COURSES APPLIED FOR:</label>
+            <input type="checkbox" name="courses">BCA
+            <input type="checkbox" name="courses">B.com
+            <input type="checkbox" name="courses">B.sc
+            <input type="checkbox" name="courses">B.A
+            <br><br>
+            <center>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </center>
+            <br><br>
+        </fieldset>
+    </form>
+</body>
+
+</html>
